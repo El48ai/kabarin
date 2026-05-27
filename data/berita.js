@@ -15,7 +15,7 @@ var BERITA = [
     kategori: "Infrastruktur",
     penulis: "Ahmad Fauzi",
     tanggal: "26 Mei 2026",
-    img: "https://picsum.photos/seed/bridge1/800/450",
+    img: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
     views: 1240,
     featured: true
   },
@@ -27,7 +27,7 @@ var BERITA = [
     kategori: "Ekonomi",
     penulis: "Siti Rahayu",
     tanggal: "25 Mei 2026",
-    img: "https://picsum.photos/seed/rubber2/800/450",
+    img: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800&q=80",
     views: 987,
     featured: true
   },
@@ -39,7 +39,7 @@ var BERITA = [
     kategori: "Bencana",
     penulis: "Hendri Putra",
     tanggal: "25 Mei 2026",
-    img: "https://picsum.photos/seed/flood3/800/450",
+    img: "https://images.unsplash.com/photo-1547683905-f686c993aae5?w=800&q=80",
     views: 2341,
     featured: true
   },
@@ -51,7 +51,7 @@ var BERITA = [
     kategori: "Pertanian",
     penulis: "Budiman",
     tanggal: "24 Mei 2026",
-    img: "https://picsum.photos/seed/palm4/800/450",
+    img: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
     views: 756,
     featured: false
   },
@@ -63,7 +63,7 @@ var BERITA = [
     kategori: "Kesehatan",
     penulis: "Nurhasanah",
     tanggal: "23 Mei 2026",
-    img: "https://picsum.photos/seed/hospital5/800/450",
+    img: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
     views: 634,
     featured: false
   },
@@ -75,7 +75,7 @@ var BERITA = [
     kategori: "Olahraga",
     penulis: "Agus Pratama",
     tanggal: "25 Mei 2026",
-    img: "https://picsum.photos/seed/football6/800/450",
+    img: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80",
     views: 891,
     featured: false
   },
@@ -87,7 +87,7 @@ var BERITA = [
     kategori: "Ekonomi",
     penulis: "Dewi Lestari",
     tanggal: "22 Mei 2026",
-    img: "https://picsum.photos/seed/market7/800/450",
+    img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
     views: 543,
     featured: false
   },
@@ -99,7 +99,7 @@ var BERITA = [
     kategori: "Pendidikan",
     penulis: "Rosmalina",
     tanggal: "23 Mei 2026",
-    img: "https://picsum.photos/seed/school8/800/450",
+    img: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
     views: 1567,
     featured: false
   },
@@ -111,7 +111,7 @@ var BERITA = [
     kategori: "Infrastruktur",
     penulis: "Harun Nasution",
     tanggal: "21 Mei 2026",
-    img: "https://picsum.photos/seed/road9/800/450",
+    img: "https://images.unsplash.com/photo-1515162816951-d28698e5c6e2?w=800&q=80",
     views: 1893,
     featured: false
   },
@@ -123,19 +123,19 @@ var BERITA = [
     kategori: "Budaya",
     penulis: "Zulkifli Rahman",
     tanggal: "25 Mei 2026",
-    img: "https://picsum.photos/seed/culture10/800/450",
+    img: "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=800&q=80",
     views: 712,
     featured: false
-  }
-,{
+  },
+  {
     id: 11,
     judul: "Tren Investasi Kripto Merambah Warga Batang Hari, Bitcoin Kini Seharga Rp 1,3 Miliar",
     ringkasan: "Sejumlah warga dan pelaku UMKM di Kabupaten Batang Hari mulai melirik investasi aset kripto di tengah fluktuasi harga Bitcoin yang masih bertahan di level tinggi.",
-    isi: "<p>Demam investasi aset kripto rupanya sudah merambah hingga ke Kabupaten Batang Hari, Provinsi Jambi. Sejumlah warga dan pelaku usaha mikro kecil menengah (UMKM) di Muara Bulian dan sekitarnya mengaku mulai mencoba peruntungan di pasar aset digital tersebut dalam beberapa bulan terakhir.</p><p>Berdasarkan data Coinmarketcap pada Rabu (27/5/2026), Bitcoin (BTC) — aset kripto terbesar di dunia — diperdagangkan di level USD 75.621 atau setara Rp 1,36 miliar per koin. Meski terkoreksi 1,95 persen dalam 24 jam terakhir, harga tersebut masih terbilang tinggi dibandingkan dua tahun lalu.</p><p>Salah seorang warga Muara Bulian yang enggan disebutkan namanya mengaku mulai berinvestasi kripto sejak awal 2026 dengan modal awal Rp 500.000 melalui aplikasi exchange lokal. Menurutnya, kripto menjadi alternatif investasi selain emas dan tabungan biasa. Saya mulai dari nominal kecil dulu, belajar sambil jalan. Untungnya memang ada, tapi risikonya juga nyata, ujarnya.</p><p>Pengamat ekonomi mengingatkan masyarakat agar berhati-hati dalam berinvestasi kripto. Volatilitas harga yang tinggi bisa menguntungkan sekaligus merugikan dalam waktu singkat. Pastikan hanya menginvestasikan dana yang memang siap untuk hilang, dan pilih platform yang sudah terdaftar di OJK, tegasnya.</p><p>Untuk pemula yang ingin mencoba, beberapa platform exchange kripto legal di Indonesia antara lain Pintu, Tokocrypto, dan Indodax. Ethereum sendiri saat ini berada di harga USD 2.065 atau sekitar Rp 36,5 juta per koin.</p>",
+    isi: "<p>Demam investasi aset kripto rupanya sudah merambah hingga ke Kabupaten Batang Hari, Provinsi Jambi. Sejumlah warga dan pelaku usaha mikro kecil menengah (UMKM) di Muara Bulian dan sekitarnya mengaku mulai mencoba peruntungan di pasar aset digital tersebut dalam beberapa bulan terakhir.</p><p>Berdasarkan data Coinmarketcap pada Rabu (27/5/2026), Bitcoin (BTC) diperdagangkan di level USD 75.621 atau setara Rp 1,36 miliar per koin. Meski terkoreksi 1,95 persen dalam 24 jam terakhir, harga tersebut masih terbilang tinggi dibandingkan dua tahun lalu.</p><p>Salah seorang warga Muara Bulian yang enggan disebutkan namanya mengaku mulai berinvestasi kripto sejak awal 2026 dengan modal awal Rp 500.000 melalui aplikasi exchange lokal. Saya mulai dari nominal kecil dulu, belajar sambil jalan. Untungnya memang ada, tapi risikonya juga nyata, ujarnya.</p><p>Pengamat ekonomi mengingatkan masyarakat agar berhati-hati. Volatilitas harga yang tinggi bisa menguntungkan sekaligus merugikan dalam waktu singkat. Pastikan hanya menginvestasikan dana yang memang siap untuk hilang, dan pilih platform yang sudah terdaftar di OJK, tegasnya.</p><p>Untuk pemula, beberapa platform exchange kripto legal di Indonesia antara lain Pintu, Tokocrypto, dan Indodax. Ethereum sendiri saat ini berada di harga USD 2.065 atau sekitar Rp 36,5 juta per koin.</p>",
     kategori: "Ekonomi",
     penulis: "Redaksi WartaBatangHari",
     tanggal: "27 Mei 2026",
-    img: "https://picsum.photos/seed/kripto11/800/450",
+    img: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=800&q=80",
     views: 0,
     featured: false
   }
