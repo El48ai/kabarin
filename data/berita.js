@@ -127,6 +127,18 @@ var BERITA = [
     views: 712,
     featured: false
   }
+,{
+    id: 11,
+    judul: "Tren Investasi Kripto Merambah Warga Batang Hari, Bitcoin Kini Seharga Rp 1,3 Miliar",
+    ringkasan: "Sejumlah warga dan pelaku UMKM di Kabupaten Batang Hari mulai melirik investasi aset kripto di tengah fluktuasi harga Bitcoin yang masih bertahan di level tinggi.",
+    isi: "<p>Demam investasi aset kripto rupanya sudah merambah hingga ke Kabupaten Batang Hari, Provinsi Jambi. Sejumlah warga dan pelaku usaha mikro kecil menengah (UMKM) di Muara Bulian dan sekitarnya mengaku mulai mencoba peruntungan di pasar aset digital tersebut dalam beberapa bulan terakhir.</p><p>Berdasarkan data Coinmarketcap pada Rabu (27/5/2026), Bitcoin (BTC) — aset kripto terbesar di dunia — diperdagangkan di level USD 75.621 atau setara Rp 1,36 miliar per koin. Meski terkoreksi 1,95 persen dalam 24 jam terakhir, harga tersebut masih terbilang tinggi dibandingkan dua tahun lalu.</p><p>Salah seorang warga Muara Bulian yang enggan disebutkan namanya mengaku mulai berinvestasi kripto sejak awal 2026 dengan modal awal Rp 500.000 melalui aplikasi exchange lokal. Menurutnya, kripto menjadi alternatif investasi selain emas dan tabungan biasa. Saya mulai dari nominal kecil dulu, belajar sambil jalan. Untungnya memang ada, tapi risikonya juga nyata, ujarnya.</p><p>Pengamat ekonomi mengingatkan masyarakat agar berhati-hati dalam berinvestasi kripto. Volatilitas harga yang tinggi bisa menguntungkan sekaligus merugikan dalam waktu singkat. Pastikan hanya menginvestasikan dana yang memang siap untuk hilang, dan pilih platform yang sudah terdaftar di OJK, tegasnya.</p><p>Untuk pemula yang ingin mencoba, beberapa platform exchange kripto legal di Indonesia antara lain Pintu, Tokocrypto, dan Indodax. Ethereum sendiri saat ini berada di harga USD 2.065 atau sekitar Rp 36,5 juta per koin.</p>",
+    kategori: "Ekonomi",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "27 Mei 2026",
+    img: "https://picsum.photos/seed/kripto11/800/450",
+    views: 0,
+    featured: false
+  }
 ];
 
 var KATEGORI = ["Semua","Infrastruktur","Ekonomi","Bencana","Pertanian","Kesehatan","Olahraga","Pendidikan","Budaya"];
