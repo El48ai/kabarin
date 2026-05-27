@@ -11,7 +11,7 @@ var BERITA = [
     id: 1,
     judul: "Pemkab Batang Hari Resmikan Jembatan Baru Penghubung Desa Rantau Puri",
     ringkasan: "Jembatan senilai Rp 4,2 miliar ini menghubungkan dua desa yang selama ini sulit diakses saat musim hujan dan sungai meluap.",
-    isi: "<p>Pemerintah Kabupaten Batang Hari resmi meresmikan jembatan baru di Desa Rantau Puri, Kecamatan Maro Sebo Ulu, Minggu (25/5/2026). Jembatan senilai Rp 4,2 miliar ini dibangun menggunakan Dana Alokasi Khusus (DAK) dari pemerintah pusat.</p><p>Bupati Batang Hari dalam sambutannya menyatakan bahwa pembangunan infrastruktur pedesaan menjadi prioritas utama pemerintah daerah tahun ini. Dengan jembatan ini, petani di Desa Rantau Puri tidak lagi kesulitan mengangkut hasil kebun ke pasar.</p><p>Warga setempat menyambut antusias peresmian tersebut. Selama ini, akses jalan menuju desa kerap terputus saat musim hujan akibat sungai yang meluap. Jembatan lama yang terbuat dari kayu sudah tidak layak pakai sejak tiga tahun lalu.</p><p>Kepala Dinas PUPR menyebutkan, proyek ini dikerjakan selama delapan bulan dan menyerap tenaga kerja lokal sebanyak 45 orang. Jembatan baru ini memiliki panjang 32 meter dengan konstruksi beton bertulang.</p>",
+    isi: "<p>Pemerintah Kabupaten Batang Hari resmi meresmikan jembatan baru di Desa Rantau Puri, Kecamatan Maro Sebo Ulu, Minggu (25/5/2026). Jembatan senilai Rp 4,2 miliar ini dibangun menggunakan Dana Alokasi Khusus (DAK) dari pemerintah pusat.</p><p>Bupati Batang Hari menyatakan bahwa pembangunan infrastruktur pedesaan menjadi prioritas utama pemerintah daerah tahun ini. Dengan jembatan ini, petani di Desa Rantau Puri tidak lagi kesulitan mengangkut hasil kebun ke pasar.</p><p>Warga setempat menyambut antusias peresmian tersebut. Selama ini, akses jalan menuju desa kerap terputus saat musim hujan akibat sungai yang meluap. Jembatan lama yang terbuat dari kayu sudah tidak layak pakai sejak tiga tahun lalu.</p><p>Kepala Dinas PUPR menyebutkan proyek ini dikerjakan selama delapan bulan dan menyerap tenaga kerja lokal sebanyak 45 orang. Jembatan baru ini memiliki panjang 32 meter dengan konstruksi beton bertulang.</p>",
     kategori: "Infrastruktur",
     penulis: "Ahmad Fauzi",
     tanggal: "26 Mei 2026",
@@ -131,17 +131,77 @@ var BERITA = [
     id: 11,
     judul: "Tren Investasi Kripto Merambah Warga Batang Hari, Bitcoin Kini Seharga Rp 1,3 Miliar",
     ringkasan: "Sejumlah warga dan pelaku UMKM di Kabupaten Batang Hari mulai melirik investasi aset kripto di tengah fluktuasi harga Bitcoin yang masih bertahan di level tinggi.",
-    isi: "<p>Demam investasi aset kripto rupanya sudah merambah hingga ke Kabupaten Batang Hari, Provinsi Jambi. Sejumlah warga dan pelaku usaha mikro kecil menengah (UMKM) di Muara Bulian dan sekitarnya mengaku mulai mencoba peruntungan di pasar aset digital tersebut dalam beberapa bulan terakhir.</p><p>Berdasarkan data Coinmarketcap pada Rabu (27/5/2026), Bitcoin (BTC) diperdagangkan di level USD 75.621 atau setara Rp 1,36 miliar per koin. Meski terkoreksi 1,95 persen dalam 24 jam terakhir, harga tersebut masih terbilang tinggi dibandingkan dua tahun lalu.</p><p>Salah seorang warga Muara Bulian yang enggan disebutkan namanya mengaku mulai berinvestasi kripto sejak awal 2026 dengan modal awal Rp 500.000 melalui aplikasi exchange lokal. Saya mulai dari nominal kecil dulu, belajar sambil jalan. Untungnya memang ada, tapi risikonya juga nyata, ujarnya.</p><p>Pengamat ekonomi mengingatkan masyarakat agar berhati-hati. Volatilitas harga yang tinggi bisa menguntungkan sekaligus merugikan dalam waktu singkat. Pastikan hanya menginvestasikan dana yang memang siap untuk hilang, dan pilih platform yang sudah terdaftar di OJK, tegasnya.</p><p>Untuk pemula, beberapa platform exchange kripto legal di Indonesia antara lain Pintu, Tokocrypto, dan Indodax. Ethereum sendiri saat ini berada di harga USD 2.065 atau sekitar Rp 36,5 juta per koin.</p>",
+    isi: "<p>Demam investasi aset kripto rupanya sudah merambah hingga ke Kabupaten Batang Hari, Provinsi Jambi. Sejumlah warga dan pelaku usaha mikro kecil menengah (UMKM) di Muara Bulian dan sekitarnya mengaku mulai mencoba peruntungan di pasar aset digital tersebut dalam beberapa bulan terakhir.</p><p>Berdasarkan data Coinmarketcap pada Rabu (27/5/2026), Bitcoin (BTC) diperdagangkan di level USD 75.621 atau setara Rp 1,36 miliar per koin. Meski terkoreksi 1,95 persen dalam 24 jam terakhir, harga tersebut masih terbilang tinggi.</p><p>Salah seorang warga Muara Bulian mengaku mulai berinvestasi kripto sejak awal 2026 dengan modal awal Rp 500.000 melalui aplikasi exchange lokal. Saya mulai dari nominal kecil dulu, belajar sambil jalan. Untungnya memang ada, tapi risikonya juga nyata, ujarnya.</p><p>Pengamat ekonomi mengingatkan masyarakat agar berhati-hati. Pastikan hanya menginvestasikan dana yang memang siap untuk hilang, dan pilih platform yang sudah terdaftar di OJK. Beberapa platform legal di Indonesia antara lain Pintu, Tokocrypto, dan Indodax.</p>",
     kategori: "Ekonomi",
     penulis: "Redaksi WartaBatangHari",
     tanggal: "27 Mei 2026",
     img: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=800&q=80",
     views: 0,
     featured: false
+  },
+  {
+    id: 12,
+    judul: "213 Jamaah Calon Haji Batang Hari Siap Diberangkatkan ke Tanah Suci",
+    ringkasan: "Kuota jamaah calon haji Kabupaten Batang Hari bertambah dua orang menjadi 213 jamaah yang akan tergabung dalam tiga kloter keberangkatan.",
+    isi: "<p>Kantor Kementerian Haji dan Umroh Kabupaten Batang Hari mengonfirmasi jumlah jamaah calon haji (JCH) daerah setempat resmi bertambah menjadi 213 orang. Kepala Kementerian Haji dan Umroh Kabupaten Batang Hari, Helmi, menyebutkan sebelumnya tercatat 211 jamaah namun ada penambahan dua orang yang sebelumnya tertunda keberangkatannya.</p><p>Seluruh 213 jamaah akan tergabung dalam tiga kelompok terbang atau kloter. Saat ini para jamaah tengah mempersiapkan diri secara mandiri setelah seluruh rangkaian manasik haji tingkat kabupaten maupun kecamatan telah selesai dilaksanakan.</p><p>Helmi memastikan seluruh fasilitas pendukung keberangkatan sudah siap, termasuk pembagian perlengkapan jamaah dan pengurusan dokumen perjalanan. Paspor seluruh jamaah sudah selesai diproses. Jamaah diminta menjaga kesehatan dan memperdalami manasik secara mandiri menjelang hari keberangkatan.</p>",
+    kategori: "Sosial",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "7 Mei 2026",
+    img: "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=800&q=80",
+    views: 0,
+    featured: false
+  },
+  {
+    id: 13,
+    judul: "Target Produksi Ikan Batang Hari Naik Jadi 10.500 Ton di 2026",
+    ringkasan: "Dinas Peternakan dan Perikanan Batang Hari optimis produksi ikan naik 5 persen dibanding tahun lalu meski masih terkendala banjir dan keramba hanyut.",
+    isi: "<p>Dinas Peternakan dan Perikanan Kabupaten Batang Hari menargetkan produksi ikan sebesar 10.500 ton pada 2026, naik sekitar lima persen dari target tahun sebelumnya sebesar 10.100 ton. Kepala Bidang Perikanan, Afrizal, menyampaikan hal ini di Muara Bulian.</p><p>Meski realisasi produksi ikan 2025 hanya mencapai 8.491 ton atau 80 persen dari target, Afrizal optimis kondisi tahun ini akan lebih baik. Produksi ikan di Batang Hari menunjukkan peningkatan yang cukup baik meskipun belum mencapai target, ujarnya.</p><p>Beberapa kendala yang dihadapi antara lain keramba ikan yang hanyut akibat arus sungai deras dan banjir di beberapa daerah. Pemerintah daerah terus mendorong petani ikan untuk memperkuat konstruksi keramba dan memanfaatkan program bantuan benih ikan dari dinas.</p>",
+    kategori: "Pertanian",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "24 Februari 2026",
+    img: "https://images.unsplash.com/photo-1545816250-e12bedba4f03?w=800&q=80",
+    views: 0,
+    featured: false
+  },
+  {
+    id: 14,
+    judul: "Wamentan Tinjau Cetak Sawah Rakyat di Muara Bulian, Batang Hari",
+    ringkasan: "Wakil Menteri Pertanian RI Sudaryono mengunjungi Batang Hari untuk meninjau program Tanam Padi Cetak Sawah Rakyat yang diikuti 16 provinsi secara serentak.",
+    isi: "<p>Wakil Menteri Pertanian RI, Sudaryono, melakukan kunjungan kerja ke Kabupaten Batang Hari, Provinsi Jambi, Selasa (21/4/2026), dalam rangka menghadiri kegiatan Tanam Padi Cetak Sawah Rakyat (CSR). Kunjungan tersebut dipusatkan di Kelurahan Pasar Baru, Kecamatan Muara Bulian.</p><p>Program Tanam Padi CSR dilaksanakan serentak dan diikuti oleh 16 provinsi di Indonesia secara daring. Wamentan turut berinteraksi langsung dengan petani serta mengikuti proses tanam padi bersama warga setempat.</p><p>Dalam arahannya, Sudaryono menyoroti pentingnya kesiapan menghadapi perubahan musim, termasuk potensi fenomena El Nino yang dapat berdampak pada produksi pertanian di Batang Hari dan seluruh Indonesia.</p>",
+    kategori: "Pertanian",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "22 April 2026",
+    img: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
+    views: 0,
+    featured: false
+  },
+  {
+    id: 15,
+    judul: "Persebri Batang Hari Juara Liga 4 Jambi 2026",
+    ringkasan: "Tim sepak bola kebanggaan Kabupaten Batang Hari berhasil meraih gelar juara Liga 4 Jambi 2026 dan mengharumkan nama daerah.",
+    isi: "<p>Kabar membanggakan datang dari dunia sepak bola Kabupaten Batang Hari. Persebri Batang Hari berhasil meraih gelar juara Liga 4 Jambi 2026, mengalahkan para pesaing dari berbagai kabupaten dan kota di Provinsi Jambi.</p><p>Prestasi ini disambut antusias oleh warga dan pecinta sepak bola di Kabupaten Batang Hari. Gelar juara ini menjadi bukti nyata perkembangan sepak bola daerah yang terus meningkat dari tahun ke tahun.</p><p>Manajemen dan pelatih Persebri berharap pencapaian ini bisa menjadi batu loncatan untuk tampil di ajang yang lebih tinggi. Dukungan dari pemerintah daerah dan suporter setia menjadi kunci semangat para pemain sepanjang kompetisi berlangsung.</p>",
+    kategori: "Olahraga",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "26 Mei 2026",
+    img: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80",
+    views: 0,
+    featured: true
+  },
+  {
+    id: 16,
+    judul: "Pemkab Batang Hari Usulkan 12.000 Metrik Ton Kuota Gas Elpiji 3 Kg",
+    ringkasan: "Pemerintah Kabupaten Batang Hari mengusulkan tambahan kuota gas elpiji bersubsidi guna memenuhi kebutuhan masyarakat yang terus meningkat.",
+    isi: "<p>Pemerintah Kabupaten Batang Hari mengusulkan kuota gas elpiji tiga kilogram sebanyak 12.000 metrik ton untuk tahun 2026. Usulan ini diajukan guna memenuhi kebutuhan masyarakat yang terus meningkat, khususnya kalangan rumah tangga dan pelaku usaha kecil.</p><p>Pejabat Sekretaris Daerah Batang Hari, Mula P Rambe, menyatakan pemerintah daerah berkomitmen memastikan pasokan gas bersubsidi tersedia merata hingga ke pelosok desa. Kami tidak ingin ada warga yang kesulitan mendapatkan gas elpiji terutama menjelang hari-hari besar, ujarnya.</p><p>Warga di sejumlah kecamatan mengaku masih sering mengalami kelangkaan gas elpiji tiga kilogram terutama di daerah terpencil. Pemerintah daerah diminta memperketat pengawasan distribusi agar gas subsidi tidak disalahgunakan oleh oknum yang menjual di atas HET.</p>",
+    kategori: "Ekonomi",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "25 Mei 2026",
+    img: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+    views: 0,
+    featured: false
   }
 ];
 
-var KATEGORI = ["Semua","Infrastruktur","Ekonomi","Bencana","Pertanian","Kesehatan","Olahraga","Pendidikan","Budaya"];
+var KATEGORI = ["Semua","Infrastruktur","Ekonomi","Bencana","Pertanian","Kesehatan","Olahraga","Pendidikan","Budaya","Sosial"];
 
 function getArtikel(id){ return BERITA.find(function(b){ return b.id===parseInt(id); }); }
 function getTerpopuler(n){ return BERITA.slice().sort(function(a,b){ return b.views-a.views; }).slice(0,n||5); }
