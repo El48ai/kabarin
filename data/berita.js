@@ -232,7 +232,7 @@ var BERITA = [
     kategori: "Bencana",
     penulis: "Elpadri",
     tanggal: "28 Mei 2026",
-    img: "https://ibb.co.com/ZpF0h1x4",
+    img: "https://i.ibb.co/m5LFVn1Q/Screenshot-20260528-224906-Instagram.jpg",
     views: 0,
     featured: true
   }
