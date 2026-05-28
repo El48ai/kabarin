@@ -9,16 +9,16 @@
 
 var BERITA = [
   {
-    id: 1,
-    judul: "Pemkab Batang Hari Resmikan Jembatan Baru Penghubung Desa Rantau Puri",
-    ringkasan: "Jembatan senilai Rp 4,2 miliar ini menghubungkan dua desa yang selama ini sulit diakses saat musim hujan dan sungai meluap.",
-    isi: "<p>Pemerintah Kabupaten Batang Hari resmi meresmikan jembatan baru di Desa Rantau Puri, Kecamatan Maro Sebo Ulu, Minggu (25/5/2026). Jembatan senilai Rp 4,2 miliar ini dibangun menggunakan Dana Alokasi Khusus (DAK) dari pemerintah pusat.</p><p>Bupati Batang Hari menyatakan bahwa pembangunan infrastruktur pedesaan menjadi prioritas utama pemerintah daerah tahun ini. Dengan jembatan ini, petani di Desa Rantau Puri tidak lagi kesulitan mengangkut hasil kebun ke pasar.</p><p>Warga setempat menyambut antusias peresmian tersebut. Selama ini akses jalan menuju desa kerap terputus saat musim hujan akibat sungai yang meluap. Jembatan lama yang terbuat dari kayu sudah tidak layak pakai sejak tiga tahun lalu.</p>",
+    id: 21,
+    judul: "Jembatan Batanghari Kritis, BRPJN Jambi Usulkan Duplikasi dan Perbaikan Fender",
+    ringkasan: "Kondisi infrastruktur jembatan di sepanjang aliran Sungai Batanghari menjadi perhatian serius di 2026, dengan perbaikan darurat fender dan pengajuan anggaran duplikasi jembatan baru.",
+    isi: "<p>Hingga tahun 2026, fokus utama penanganan infrastruktur di sepanjang aliran Sungai Batanghari terbagi menjadi perbaikan darurat struktur pengaman (fender) akibat tabrakan tongkang batu bara serta pengajuan anggaran pusat untuk duplikasi jembatan baru guna mengatasi kemacetan parah.</p><p>Jembatan Batanghari 1 (Aur Duri I) menjadi titik krusial kemacetan di Jalan Lintas Timur Sumatera. Sempat terjadi insiden kemacetan total berjam-jam akibat kendaraan logistik berukuran besar yang mengalami gangguan mesin di badan jembatan yang sempit. Balai Pelaksana Jalan Nasional (BRPJN) Jambi memprioritaskan usulan proyek Duplikasi Jembatan Batanghari I ke Kementerian PUPR agar beban dinamis kendaraan logistik tidak lagi bertumpu pada satu jembatan lama.</p><p>Sementara itu, Jembatan Muara Tembesi (Batanghari) masih berada di bawah pengawasan ketat karena masuk dalam kategori Nilai Kondisi (NK) 3 yakni rusak dan mendesak untuk ditangani. Perkumpulan Pengusaha Tambang Batu Bara (PPTB) bersama Pemprov Jambi mengawal penyelesaian perbaikan pipa fender jembatan yang rusak dan retak pasca-insiden tertabrak tongkang batu bara. Warga setempat di kawasan Pelayangan juga mendirikan posko mandiri untuk memantau lalu lintas tugboat di bawah jembatan agar insiden serupa tidak terulang.</p><p>Dari sisi pembangunan, Dinas PUPR Kabupaten Batanghari menggelontorkan anggaran hingga belasan miliar rupiah untuk puluhan paket proyek fisik melalui realisasi APBD 2026. Fokus anggaran tahun ini dialokasikan untuk pengadaan material aspal hotmix guna memperbaiki jalan-jalan poros penghubung serta penguatan dan pembangunan bronjong pada jembatan-jembatan skala wilayah di area pemukiman.</p><p>Masyarakat yang ingin memantau sisa paket lelang infrastruktur atau jadwal penutupan jalur selama perbaikan dapat mengeceknya langsung melalui laman Layanan Pengadaan Secara Elektronik (LPSE) Kabupaten Batanghari atau berkoordinasi dengan dinas terkait.</p>",
     kategori: "Infrastruktur",
     penulis: "Elpadri",
-    tanggal: "26 Mei 2026",
-    img: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
-    views: 1240,
-    featured: true
+    tanggal: "29 Mei 2026",
+    img: "https://i.ibb.co/spFq7pVm/Screenshot-20260529-010512-Facebook.jpg",
+    views: 0,
+    featured: false
   },
 ,{
     id: 20,
