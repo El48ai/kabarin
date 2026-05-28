@@ -104,18 +104,18 @@ var BERITA = [
     views: 1567,
     featured: false
   },
-  {
-    id: 9,
-    judul: "Jalan Poros Desa Muara Tembesi Rusak Parah, Warga Minta Segera Diperbaiki",
-    ringkasan: "Jalan sepanjang 4 km yang menghubungkan beberapa desa di Muara Tembesi berlubang dan licin di musim hujan.",
-    isi: "<p>Warga di Kecamatan Muara Tembesi mengeluhkan kondisi jalan poros desa yang rusak parah sepanjang kurang lebih 4 kilometer. Jalan ini dipenuhi lubang besar dan kerap membahayakan pengendara.</p><p>Sudah bertahun-tahun kondisinya begini. Anggota DPRD menyatakan akan memperjuangkan anggaran perbaikan dalam APBD Perubahan 2026.</p>",
+{
+    id: 22,
+    judul: "Jalan Poros Nasional Muara Tembesi Rusak Parah, Jalur Logistik dan Mudik Rawan Macet",
+    ringkasan: "Kondisi jalan poros nasional di wilayah Muara Tembesi, Kabupaten Batanghari terpantau mengalami kerusakan parah di beberapa titik sepanjang tahun 2026 akibat lubang dalam, keausan aspal, dan tingginya volume truk batu bara.",
+    isi: "<p>Kondisi jalan poros nasional di wilayah Muara Tembesi, Kabupaten Batanghari terpantau mengalami kerusakan parah di beberapa titik sepanjang tahun 2026. Masalah utama dipicu oleh lubang jalan yang dalam, keausan aspal, proyek perbaikan berulang, serta tingginya volume kendaraan logistik dan truk batu bara.</p><p>Berdasarkan pantauan udara, jalur utama dari arah Jambi menuju Muara Tembesi hingga perbatasan Sumatera Barat dipenuhi lubang-lubang besar. Pengendara terpaksa memperlambat laju kendaraan secara ekstrem demi menghindari kecelakaan, terutama saat lubang tergenang air hujan. Selain di wilayah Tembesi-Muara Bulian, kemacetan belasan kilometer sempat mengular di sepanjang jalur nasional Simpang Jelutih (Bathin XXIV) akibat truk batu bara yang patah as di badan jalan yang berlubang.</p><p>Upaya perbaikan jalan berupa pengecoran rigid beton di ruas Tenam hingga Muara Tembesi memicu antrean kendaraan yang mengular hingga beberapa kilometer. Sistem buka-tutup jalur yang diberlakukan membuat truk angkutan barang dan kendaraan pribadi harus mengantre berjam-jam.</p><p>Dinas PUPR Kabupaten Batanghari menjadwalkan pemeliharaan dan pengerasan jalan pada aspal yang aus di beberapa titik penting, termasuk di jalan Desa Ampelu Mudo, Kecamatan Tembesi sepanjang 1.076 kilometer.</p><p>Khusus pada pertengahan Mei 2026, ketegangan di jalur lintas Tembesi sempat mereda. Ditlantas Polda Jambi memberlakukan penghentian sementara operasional truk batu bara (10-21 Mei 2026) guna mengamankan rute perjalanan jamaah haji. Warga di sepanjang Pal 5 Tembesi hingga Pasar Muara Bulian sempat merasakan jalanan yang lengang dan aman dari debu tebal maupun risiko kecelakaan truk.</p><p>Pengendara lintas Sarolangun-Muara Tembesi juga diimbau ekstra waspada. Sisi badan jalan nasional di wilayah sekitar bantaran Sungai Tembesi (Desa Batu Ampar) rawan amblas dan terancam putus akibat erosi air sungai, diperparah dengan minimnya lampu penerangan jalan di malam hari.</p>",
     kategori: "Infrastruktur",
     penulis: "Elpadri",
-    tanggal: "21 Mei 2026",
-    img: "https://images.unsplash.com/photo-1515162816951-d28698e5c6e2?w=800&q=80",
-    views: 1893,
+    tanggal: "29 Mei 2026",
+    img: "https://i.ibb.co/C5vRTXNK/Screenshot-20260529-011901-Chrome.jpg",
+    views: 0,
     featured: false
-  },
+},
   {
     id: 10,
     judul: "Festival Budaya Adat Bajubang Tampilkan Tari Sekapur Sirih dan Seloko Jambi",
