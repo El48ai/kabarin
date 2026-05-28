@@ -52,7 +52,7 @@ var BERITA = [
     kategori: "Pertanian",
     penulis: "Elpadri",
     tanggal: "24 Mei 2026",
-    img: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
+    img: "https://i.ibb.co/MD3PF525/Screenshot-20260529-004346-You-Tube.jpg",
     views: 756,
     featured: false
   },
