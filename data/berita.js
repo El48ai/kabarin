@@ -31,7 +31,7 @@ var BERITA = [
     img: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800&q=80",
     views: 0,
     featured: false
-  }
+  },
   {
     id: 3,
     judul: "Banjir Rendam Puluhan Rumah di Desa Durian Luncuk, Warga Mengungsi",
