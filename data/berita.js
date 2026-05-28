@@ -223,6 +223,18 @@ var BERITA = [
     img: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=800&q=80",
     views: 0,
     featured: false
+  },
+  {
+    id: 19,
+    judul: "Kecelakaan Maut di Sungai Gelam Muaro Jambi, Dua Orang Meninggal Ditabrak Truk",
+    ringkasan: "Kecelakaan beruntun melibatkan mobil Daihatsu Sigra, Honda Scoopy, dan truk Mitsubishi Colt Diesel menewaskan dua orang di Jalan Kebon IX, Kamis pagi.",
+    isi: "<p>Kecelakaan maut terjadi di Jalan Kebon IX, Sungai Gelam RT 12, Desa Kebon IX, Kecamatan Sungai Gelam, Kabupaten Muaro Jambi, Kamis (28/5/2026) sekitar pukul 08.30 WIB. Insiden tragis tersebut melibatkan satu unit mobil Daihatsu Sigra, sepeda motor Honda Scoopy, dan sebuah truk Mitsubishi Colt Diesel.</p><p>Berdasarkan informasi yang dihimpun, kecelakaan bermula saat mobil Daihatsu Sigra BH 1124 GP melaju dari arah Kebon IX menuju Sungai Gelam. Di belakang kendaraan tersebut melaju truk Mitsubishi Colt Diesel BH 8519 HK. Saat tiba di lokasi kejadian, mobil Sigra diduga berbelok ke kanan, bersamaan dengan datangnya sepeda motor Honda Scoopy BH 4385 IM dari arah berlawanan.</p><p>Tabrakan pun tak terhindarkan. Sepeda motor Scoopy menghantam bagian samping kiri mobil Sigra hingga pengendara dan penumpangnya terjatuh ke jalur kanan jalan dan kemudian terlindas truk yang berada di belakang mobil Sigra.</p><p>Akibat kejadian tersebut, dua orang dilaporkan meninggal dunia dan satu korban lainnya mengalami luka-luka serta telah dilarikan ke RS Royal Prima Jambi untuk mendapatkan perawatan medis.</p><p>Pihak kepolisian masih melakukan penyelidikan lebih lanjut terkait penyebab pasti kecelakaan, sementara sejumlah saksi dan rekaman CCTV di lokasi kejadian turut dijadikan bahan pemeriksaan.</p>",
+    kategori: "Bencana",
+    penulis: "Elpadri",
+    tanggal: "28 Mei 2026",
+    img: "https://ibb.co.com/ZpF0h1x4",
+    views: 0,
+    featured: true
   }
 ];
 
