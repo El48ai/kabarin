@@ -7,18 +7,18 @@
 // ================================================
 
 var BERITA = [
-  {
-    id: 1,
-    judul: "Pemkab Batang Hari Resmikan Jembatan Baru Penghubung Desa Rantau Puri",
-    ringkasan: "Jembatan senilai Rp 4,2 miliar ini menghubungkan dua desa yang selama ini sulit diakses saat musim hujan dan sungai meluap.",
-    isi: "<p>Pemerintah Kabupaten Batang Hari resmi meresmikan jembatan baru di Desa Rantau Puri,Muara Bulian, Minggu (25/5/2026). Jembatan senilai Rp 4,2 miliar ini dibangun menggunakan Dana Alokasi Khusus (DAK) dari pemerintah pusat.</p><p>Bupati Batang Hari menyatakan bahwa pembangunan infrastruktur pedesaan menjadi prioritas utama pemerintah daerah tahun ini. Dengan jembatan ini, petani di Desa Rantau Puri tidak lagi kesulitan mengangkut hasil kebun ke pasar.</p><p>Warga setempat menyambut antusias peresmian tersebut. Selama ini, akses jalan menuju desa kerap terputus saat musim hujan akibat sungai yang meluap. Jembatan lama yang terbuat dari kayu sudah tidak layak pakai sejak tiga tahun lalu.</p><p>Kepala Dinas PUPR menyebutkan proyek ini dikerjakan selama delapan bulan dan menyerap tenaga kerja lokal sebanyak 45 orang. Jembatan baru ini memiliki panjang 32 meter dengan konstruksi beton bertulang.</p>",
-    kategori: "Infrastruktur",
-    penulis: "Ahmad Fauzi",
-    tanggal: "26 Mei 2026",
-    img: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
-    views: 1240,
-    featured: true
-  },
+  ,{
+    id: 18,
+    judul: "UU Clarity AS Disahkan, Pasar Kripto Global Bergejolak — Apa Dampaknya bagi Investor Indonesia?",
+    ringkasan: "Kongres Amerika Serikat mengesahkan UU Clarity yang mengatur aset kripto secara resmi. Kebijakan ini diprediksi mengubah lanskap investasi kripto dunia, termasuk di Indonesia.",
+    isi: "<p>Amerika Serikat resmi mengesahkan Undang-Undang Clarity, regulasi pertama yang secara komprehensif mengatur aset kripto di negara tersebut. Kebijakan ini disambut beragam oleh pelaku pasar — sebagian optimis, sebagian khawatir dampaknya justru memindahkan pusat industri kripto ke negara lain.</p><p>UU Clarity memberikan kepastian hukum bagi perusahaan kripto yang selama ini beroperasi di zona abu-abu regulasi AS. Namun sejumlah analis memperingatkan bahwa aturan ketat dalam beleid tersebut justru bisa mendorong perusahaan kripto besar pindah ke negara dengan regulasi lebih longgar seperti Singapura, Dubai, atau Swiss.</p><p>Bagi investor kripto di Indonesia, termasuk yang mulai bermunculan di Kabupaten Batang Hari dan sekitarnya, kebijakan ini perlu dicermati. Pergerakan regulasi di AS selalu berdampak pada harga Bitcoin dan aset kripto lainnya secara global. Ketika regulasi ketat diterapkan, pasar biasanya bereaksi dengan volatilitas tinggi dalam jangka pendek.</p><p>Otoritas Jasa Keuangan (OJK) Indonesia sendiri terus memperketat pengawasan platform exchange kripto lokal. Masyarakat diimbau hanya menggunakan platform yang sudah terdaftar dan berizin resmi seperti Indodax, Tokocrypto, dan Pintu. Investasi kripto tetap berisiko tinggi dan tidak cocok untuk semua kalangan, tegas OJK.</p>",
+    kategori: "Teknologi",
+    penulis: "Redaksi WartaBatangHari",
+    tanggal: "28 Mei 2026",
+    img: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=800&q=80",
+    views: 0,
+    featured: false
+  }
   {
     id: 2,
     judul: "Harga Karet Petani Batang Hari Naik Tipis, Tembus Rp 11.500 per Kg",
