@@ -172,7 +172,7 @@ var BERITA = [
     kategori: "Pertanian",
     penulis: "Elpadri",
     tanggal: "22 April 2026",
-    img: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&q=80",
+    img: "https://i.ibb.co/LXJrSGTG/Screenshot-20260529-005017-Tik-Tok.jpg",
     views: 0,
     featured: false
   },
