@@ -20,18 +20,18 @@ var BERITA = [
     views: 1240,
     featured: true
   },
-  {
-    id: 2,
-    judul: "Harga Karet Petani Batang Hari Naik Tipis, Tembus Rp 11.500 per Kg",
-    ringkasan: "Kenaikan harga karet disambut gembira petani di Kecamatan Mersam dan Bajubang yang mengandalkan komoditas ini sebagai sumber utama penghasilan.",
-    isi: "<p>Harga karet rakyat di Kabupaten Batang Hari tercatat naik tipis ke level Rp 11.500 per kilogram dalam sepekan terakhir. Kenaikan ini disambut positif oleh ribuan petani karet yang tersebar di berbagai kecamatan.</p><p>Petani di Kecamatan Mersam mengaku lega dengan perkembangan harga ini. Bulan lalu masih Rp 10.800, sekarang naik lumayan. Semoga bisa terus naik sampai Rp 13.000.</p><p>Dinas Perkebunan Kabupaten Batang Hari mencatat ada sekitar 42.000 hektare lahan karet rakyat yang tersebar di seluruh wilayah kabupaten.</p>",
-    kategori: "Ekonomi",
+,{
+    id: 20,
+    judul: "Harga Karet Batang Hari Sentuh Rp 19.000 per Kg, Petani Kembali Bergairah",
+    ringkasan: "Harga getah karet di tingkat petani Kabupaten Batang Hari bertahan pada tren tinggi, mencapai kisaran Rp 19.000 per kg menjelang akhir Mei 2026 seiring naiknya harga karet di pasar internasional.",
+    isi: "<p>Kabar gembira datang bagi para petani karet di Kabupaten Batang Hari. Harga getah karet di tingkat petani wilayah Jambi, termasuk Batang Hari, bertahan pada tren yang tinggi dengan mencapai kisaran Rp 19.000 per kilogram menjelang akhir Mei 2026. Tren positif ini dipengaruhi oleh tingginya harga komoditas karet di pasar internasional.</p><p>Berdasarkan data terkini, harga karet di pasar global (SGX Sicom) bertahan di level 2,20 dolar AS per kilogram atau setara dengan Rp 37.141 per kilogram. Kenaikan ini langsung berdampak positif pada harga di tingkat petani yang kini menyentuh angka Rp 19.000 per kilogram, membuat para petani kembali bergairah menyadap.</p><p>Di luar sektor harga karet, terdapat kabar duka dari wilayah Batang Tembesi. Operasi pencarian korban tenggelam di kawasan Mandiangin telah selesai pada 28 Mei 2026, di mana korban ditemukan dalam keadaan meninggal dunia.</p><p>Selain itu, wilayah Batang Hari sempat digegerkan oleh penemuan kerangka petani karet di Desa Kuap, Kecamatan Pemayung, serta insiden kekerasan di kebun karet Batin XXIV yang kini masih dalam penanganan pihak kepolisian setempat.</p><p>Untuk pemantauan harga karet terkini, petani dapat mengakses data harian melalui Badan Pusat Statistik atau memantau tren komoditas di Dinas Perkebunan Provinsi Jambi.</p>",
+    kategori: "Pertanian",
     penulis: "Elpadri",
-    tanggal: "25 Mei 2026",
+    tanggal: "28 Mei 2026",
     img: "https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=800&q=80",
-    views: 987,
-    featured: true
-  },
+    views: 0,
+    featured: false
+  }
   {
     id: 3,
     judul: "Banjir Rendam Puluhan Rumah di Desa Durian Luncuk, Warga Mengungsi",
