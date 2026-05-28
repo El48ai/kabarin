@@ -199,6 +199,11 @@ var BERITA = [
     views: 0,
     featured: false
   }
+  ,{
+    id: 17,
+    judul: "GitHub Dibobol Hacker, 3.800 Repository Internal Dicuri Lewat Extension VS Code Palsu",
+    ringkasan: "Kelompok hacker TeamPCP berhasil mencuri ribuan repository internal GitHub menggunakan extension VS Code yang sudah disisipi malware, tanpa perlu jebol password atau firewall.",
+    isi: "<p>Platform pengembang software terbesar di dunia, GitHub, mengonfirmasi kebobolan data pada Selasa (20/5/2026). Sebanyak 3.800 repository internal milik perusahaan berhasil dicuri oleh kelompok peretas bernama TeamPCP — bukan dengan cara kasar seperti brute force password, melainkan lewat trik yang jauh lebih licik.</p><p>Serangan bermula dari sebuah extension VS Code bernama Nx Console yang sudah disisipi malware. Extension tersebut tampil normal seperti biasa, namun diam-diam menjalankan perintah tersembunyi saat diinstall yang langsung membuka akses ke ribuan repository rahasia perusahaan. Yang mengejutkan, versi berbahaya extension ini hanya aktif di marketplace selama 18 menit — namun cukup untuk menyebabkan kerusakan besar.</p><p>Setelah aksinya berhasil, kelompok TeamPCP
 ];
 
 var KATEGORI = ["Semua","Infrastruktur","Ekonomi","Bencana","Pertanian","Kesehatan","Olahraga","Pendidikan","Budaya","Sosial"];
