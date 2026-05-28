@@ -8,17 +8,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet"/>
   <style>
-    :root{--green:#1B4D35;--green2:#256044;--gold:#C9921A;--ink:#1C1C1C;--body:#3a3a3a;--muted:#7a7a7a;--paper:#F9F6EE;--white:#fff;--border:#E0D9CE;--shadow:0 4px 18px rgba(0,0,0,.1)}
+    :root{--green:#1B4D35;--green2:#256044;--gold:#C9921A;--ink:#1C1C1C;--body:#3a3a3a;--muted:#7a7a7a;--paper:#F9F6EE;--white:#fff;--border:#E0D9CE;--shadow:0 4px 18px rgba(0,0,0,.1);--wa:#25D366}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     body{font-family:'Nunito Sans',sans-serif;background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
-    a{text-decoration:none;color:inherit}
-    img{display:block;width:100%;object-fit:cover}
+    a{text-decoration:none;color:inherit}img{display:block;width:100%;object-fit:cover}
     .wrap{max-width:1200px;margin:0 auto;padding:0 16px}
     .badge{display:inline-block;background:var(--gold);color:#fff;font-size:9.5px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:2px 7px;border-radius:2px}
     .badge.gr{background:var(--green)}
     .ad{background:#EEF5F0;border:1.5px dashed #9abfab;border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#7aaa8c;text-align:center}
     .ad-l{font-size:9px;text-transform:uppercase;letter-spacing:.12em;font-weight:700;color:#8ab8a0}
-
     .topbar{background:var(--green);color:#a8c8b4;font-size:11px;padding:5px 0}
     .topbar .wrap{display:flex;justify-content:space-between;align-items:center}
     .topbar a{color:#a8c8b4}.topbar a:hover{color:#fff}
@@ -32,93 +30,65 @@
     .nav-list{display:flex;list-style:none;white-space:nowrap}
     .nav-list a{display:block;padding:8px 13px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--body);border-bottom:2.5px solid transparent;transition:color .2s,border-color .2s}
     .nav-list a:hover,.nav-list a.active{color:var(--gold);border-bottom-color:var(--gold)}
-
     .breadcrumb{padding:12px 0 0;font-size:12px;color:var(--muted);display:flex;gap:5px;align-items:center;flex-wrap:wrap}
     .breadcrumb a{color:var(--green);font-weight:600}.breadcrumb a:hover{text-decoration:underline}
-
     .art-layout{display:grid;grid-template-columns:1fr 300px;gap:28px;padding:14px 0 40px}
-
-    /* ARTICLE */
     .art-cat{margin-bottom:10px}
     .art-title{font-family:'Bitter',serif;font-size:26px;font-weight:700;line-height:1.35;color:var(--ink);margin-bottom:14px}
     .art-meta{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted);padding-bottom:14px;border-bottom:2px solid var(--border);margin-bottom:18px}
     .art-author{color:var(--gold);font-weight:700;font-size:13px}
     .art-share{display:flex;gap:7px;margin-left:auto}
-    .sbtn{background:var(--green);color:#fff;border:none;border-radius:4px;padding:5px 12px;font-size:11px;font-weight:700;cursor:pointer;font-family:'Nunito Sans',sans-serif;transition:background .2s}
-    .sbtn:hover{background:var(--green2)}
-    .sbtn.gold{background:var(--gold)}.sbtn.gold:hover{background:#a87614}
-
-    .art-hero{border-radius:8px;overflow:hidden;margin-bottom:6px;height:380px}
-    .art-hero img{height:380px}
+    .sbtn{background:var(--green);color:#fff;border:none;border-radius:4px;padding:5px 12px;font-size:11px;font-weight:700;cursor:pointer;font-family:'Nunito Sans',sans-serif;transition:background .2s}.sbtn:hover{background:var(--green2)}
+    .sbtn.wa{background:var(--wa)}.sbtn.wa:hover{background:#1da851}
+    .art-hero{border-radius:8px;overflow:hidden;margin-bottom:6px;height:380px}.art-hero img{height:380px}
     .art-caption{font-size:11px;color:var(--muted);text-align:center;margin-bottom:20px;font-style:italic}
-
     .art-body{font-family:'Bitter',serif;font-size:16px;line-height:1.85;color:var(--body)}
     .art-body p{margin-bottom:18px}
     .art-body p:first-child::first-letter{font-size:52px;font-weight:700;float:left;line-height:.8;margin:4px 8px 0 0;color:var(--green)}
-    .art-body h2{font-size:20px;font-weight:700;color:var(--ink);margin:24px 0 12px}
-
     .ad-art{height:90px;margin:22px 0}
     .art-tags{display:flex;gap:7px;flex-wrap:wrap;margin:22px 0;padding-top:16px;border-top:1px solid var(--border)}
     .atag{background:var(--paper);border:1px solid var(--border);border-radius:20px;padding:3px 11px;font-size:11px;font-weight:600;color:var(--body);cursor:pointer;transition:background .15s,color .15s}
     .atag:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
-
     .rel-title{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--ink);margin-bottom:14px}
     .rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-bottom:30px}
     .rcard{background:var(--white);border:1px solid var(--border);border-radius:6px;overflow:hidden;cursor:pointer;transition:box-shadow .2s,transform .2s}
     .rcard:hover{box-shadow:var(--shadow);transform:translateY(-2px)}
-    .rth{height:110px;overflow:hidden}
-    .rth img{height:110px;transition:transform .3s}
-    .rcard:hover .rth img{transform:scale(1.06)}
-    .rbody{padding:10px 12px 12px}
-    .rbody h4{font-family:'Bitter',serif;font-size:13px;font-weight:700;line-height:1.4;color:var(--ink);margin:4px 0 5px}
-    .rm{font-size:10.5px;color:var(--muted)}
-
-    /* SIDEBAR */
+    .rth{height:110px;overflow:hidden}.rth img{height:110px;transition:transform .3s}.rcard:hover .rth img{transform:scale(1.06)}
+    .rbody{padding:10px 12px 12px}.rbody h4{font-family:'Bitter',serif;font-size:13px;font-weight:700;line-height:1.4;color:var(--ink);margin:4px 0 5px}.rm{font-size:10.5px;color:var(--muted)}
     .sidebar{display:flex;flex-direction:column;gap:18px}
     .widget{background:var(--white);border:1px solid var(--border);border-radius:6px;overflow:hidden}
     .whead{background:var(--green);color:#fff;padding:9px 14px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
     .wbody{padding:4px 0}
     .tri{display:flex;gap:9px;align-items:flex-start;padding:9px 13px;border-bottom:1px solid #f0ece5;cursor:pointer;transition:background .15s}
     .tri:last-child{border:none}.tri:hover{background:#faf7f1}
-    .tri-img{width:56px;height:44px;flex-shrink:0;border-radius:3px;overflow:hidden}
-    .tri-img img{height:44px;width:56px}
-    .trn{font-family:'Bebas Neue',sans-serif;font-size:24px;color:#ddd;line-height:1;flex-shrink:0;width:20px;margin-top:2px}
-    .tri:first-child .trn{color:var(--gold)}
-    .trt{font-family:'Bitter',serif;font-size:12.5px;line-height:1.4;color:var(--ink)}
-    .trm{font-size:10px;color:var(--muted);margin-top:2px}
+    .tri-img{width:56px;height:44px;flex-shrink:0;border-radius:3px;overflow:hidden}.tri-img img{height:44px;width:56px}
+    .trn{font-family:'Bebas Neue',sans-serif;font-size:24px;color:#ddd;line-height:1;flex-shrink:0;width:20px;margin-top:2px}.tri:first-child .trn{color:var(--gold)}
+    .trt{font-family:'Bitter',serif;font-size:12.5px;line-height:1.4;color:var(--ink)}.trm{font-size:10px;color:var(--muted);margin-top:2px}
     .ad-mpu{height:252px}.ad-half{height:500px}
-
-    .not-found{text-align:center;padding:80px 20px;color:var(--muted)}
-    .not-found h2{font-family:'Bitter',serif;font-size:26px;color:var(--ink);margin-bottom:12px}
-
+    .not-found{text-align:center;padding:80px 20px;color:var(--muted)}.not-found h2{font-family:'Bitter',serif;font-size:26px;color:var(--ink);margin-bottom:12px}
     .site-footer{background:var(--green);color:#a8c8b4;padding:24px 0 0}
     .ft-simple{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;padding-bottom:16px;border-bottom:1px solid #256044}
-    .ft-logo{font-family:'Bebas Neue',sans-serif;font-size:26px;color:#fff}
-    .ft-logo span{color:#f5c842}
-    .ft-nav{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-    .ft-nav a{font-size:12px;color:#a8c8b4;transition:color .2s}.ft-nav a:hover{color:#fff}
+    .ft-logo{font-family:'Bebas Neue',sans-serif;font-size:26px;color:#fff}.ft-logo span{color:#f5c842}
+    .ft-nav{display:flex;gap:14px;flex-wrap:wrap;align-items:center}.ft-nav a{font-size:12px;color:#a8c8b4;transition:color .2s}.ft-nav a:hover{color:#fff}
     .fbot{text-align:center;padding:12px;font-size:11px;border-top:1px solid #256044}
-
+    .wa-float{position:fixed;bottom:18px;right:18px;background:var(--wa);color:#fff;width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:200;transition:transform .2s}.wa-float:hover{transform:scale(1.1)}
     @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
     .art-layout{animation:fadeUp .4s ease both}
-
     @media(max-width:900px){.art-layout{grid-template-columns:1fr}}
-    @media(max-width:640px){.art-title{font-size:20px}.art-hero{height:220px}.art-hero img{height:220px}.rel-grid{grid-template-columns:1fr 1fr}.art-share{display:none}}
+    @media(max-width:640px){.art-title{font-size:20px}.art-hero{height:220px}.art-hero img{height:220px}.rel-grid{grid-template-columns:1fr 1fr}.art-share{width:100%;margin:8px 0 0}}
     @media(max-width:420px){.rel-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-
 <div class="topbar"><div class="wrap">
   <span>📅 <span id="tgl"></span> &nbsp;📍 Batang Hari, Jambi</span>
   <div style="display:flex;gap:14px"><a href="#">Masuk</a><a href="#" style="color:#f5c842;font-weight:700">★ Berlangganan</a></div>
 </div></div>
-
 <header class="site-header"><div class="wrap">
   <div class="hdr-main">
     <a href="index.html" style="display:flex;align-items:flex-end;gap:4px;flex-shrink:0">
       <div class="logo-t">Warta<span>BatangHari</span></div>
-      <div class="logo-s" style="padding-bottom:3px">Berita Kab. Batang Hari</div>
+      <div class="logo-s" style="padding-bottom:3px">Informasi Terkini Batang Hari</div>
     </a>
   </div>
   <nav class="site-nav"><ul class="nav-list">
@@ -130,10 +100,10 @@
     <li><a href="kategori.html?kat=Kesehatan">Kesehatan</a></li>
     <li><a href="kategori.html?kat=Pendidikan">Pendidikan</a></li>
     <li><a href="kategori.html?kat=Budaya">Budaya</a></li>
+    <li><a href="kategori.html?kat=Teknologi">Teknologi</a></li>
     <li><a href="kategori.html?kat=Bencana">Bencana</a></li>
   </ul></nav>
 </div></header>
-
 <div class="wrap">
   <div class="breadcrumb" id="bc"></div>
   <div class="art-layout">
@@ -145,52 +115,39 @@
     </aside>
   </div>
 </div>
-
 <footer class="site-footer"><div class="wrap">
   <div class="ft-simple">
     <div class="ft-logo">Warta<span>BatangHari</span></div>
-    <div class="ft-nav"><a href="index.html">Beranda</a><a href="#">Tentang Kami</a><a href="#">Pasang Iklan</a><a href="#">Kontak</a><a href="#">Kebijakan Privasi</a></div>
+    <div class="ft-nav"><a href="index.html">Beranda</a><a href="https://instagram.com/elpadri__" target="_blank">Instagram</a><a href="https://wa.me/6285658379941" target="_blank">Pasang Iklan</a><a href="https://wa.me/6285658379941" target="_blank">Kontak</a></div>
   </div>
-  <div class="fbot">© 2026 WartaBatangHari · Muara Bulian, Kabupaten Batang Hari, Jambi</div>
+  <div class="fbot">© 2026 WartaBatangHari · Durian Luncuk, Kec. Maro Sebo Ulu, Kabupaten Batang Hari, Jambi · Pemimpin Redaksi: Elpadri</div>
 </div></footer>
-
+<a href="https://wa.me/6285658379941?text=Halo%20WartaBatangHari" class="wa-float" target="_blank" title="Hubungi via WhatsApp">💬</a>
 <script src="data/berita.js"></script>
 <script>
   var hr=["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],bl=["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"],nd=new Date();
   document.getElementById("tgl").textContent=hr[nd.getDay()]+", "+nd.getDate()+" "+bl[nd.getMonth()]+" "+nd.getFullYear();
-
-  var p=new URLSearchParams(window.location.search), art=getArtikel(p.get("id")), main=document.getElementById("art-main");
-
+  var p=new URLSearchParams(window.location.search),art=getArtikel(p.get("id")),main=document.getElementById("art-main");
   if(!art){
     main.innerHTML='<div class="not-found"><h2>Artikel Tidak Ditemukan</h2><p>Artikel yang kamu cari tidak ada atau sudah dihapus.</p><br><a href="index.html" style="color:var(--gold);font-weight:700">← Kembali ke Beranda</a></div>';
   } else {
     document.getElementById("ptitle").textContent=art.judul+" — WartaBatangHari";
     document.getElementById("pdesc").content=art.ringkasan;
     document.getElementById("bc").innerHTML='<a href="index.html">Beranda</a> › <a href="kategori.html?kat='+art.kategori+'">'+art.kategori+'</a> › <span>'+art.judul.substring(0,50)+'…</span>';
-
     var rel=BERITA.filter(function(b){return b.id!==art.id&&b.kategori===art.kategori;}).slice(0,3);
-    if(rel.length<3) rel=rel.concat(BERITA.filter(function(b){return b.id!==art.id&&rel.indexOf(b)<0;}).slice(0,3-rel.length));
-
+    if(rel.length<3)rel=rel.concat(BERITA.filter(function(b){return b.id!==art.id&&rel.indexOf(b)<0;}).slice(0,3-rel.length));
     main.innerHTML=
       '<div class="art-cat"><span class="badge">'+art.kategori+'</span></div>'+
       '<h1 class="art-title">'+art.judul+'</h1>'+
-      '<div class="art-meta"><span class="art-author">✍️ '+art.penulis+'</span><span>📅 '+art.tanggal+'</span><span>👁 '+art.views.toLocaleString()+'</span>'+
-        '<div class="art-share"><button class="sbtn gold" onclick="shareWA()">WhatsApp</button><button class="sbtn" onclick="copyLink()">Salin Link</button></div></div>'+
+      '<div class="art-meta"><span class="art-author">✍️ '+art.penulis+'</span><span>📅 '+art.tanggal+'</span><span>👁 '+art.views.toLocaleString()+'</span><div class="art-share"><button class="sbtn wa" onclick="shareWA()">WhatsApp</button><button class="sbtn" onclick="copyLink()">Salin Link</button></div></div>'+
       '<div class="art-hero"><img src="'+art.img+'" alt="'+art.judul+'" loading="lazy"/></div>'+
       '<p class="art-caption">Foto: Ilustrasi / WartaBatangHari</p>'+
       '<div class="art-body">'+art.isi+'</div>'+
       '<div class="ad ad-art"><div class="ad-l">Slot Iklan · 728×90 — In-Article</div><div style="font-size:18px">📢</div></div>'+
       '<div class="art-tags">'+KATEGORI.filter(function(k){return k!=="Semua";}).map(function(k){return '<a href="kategori.html?kat='+k+'" class="atag">'+k+'</a>';}).join("")+'</div>'+
-      '<div class="rel-title">Berita Terkait</div>'+
-      '<div class="rel-grid">'+rel.map(function(b){
-        return '<a href="artikel.html?id='+b.id+'" class="rcard"><div class="rth"><img src="'+b.img+'" alt="'+b.judul+'" loading="lazy"/></div><div class="rbody"><span class="badge gr">'+b.kategori+'</span><h4>'+b.judul+'</h4><div class="rm">'+b.tanggal+' · '+b.penulis+'</div></div></a>';
-      }).join("")+'</div>';
+      '<div class="rel-title">Berita Terkait</div><div class="rel-grid">'+rel.map(function(b){return '<a href="artikel.html?id='+b.id+'" class="rcard"><div class="rth"><img src="'+b.img+'" alt="'+b.judul+'" loading="lazy"/></div><div class="rbody"><span class="badge gr">'+b.kategori+'</span><h4>'+b.judul+'</h4><div class="rm">'+b.tanggal+' · '+b.penulis+'</div></div></a>';}).join("")+'</div>';
   }
-
-  document.getElementById("trending").innerHTML=getTerpopuler(5).map(function(b,i){
-    return '<a href="artikel.html?id='+b.id+'" class="tri"><div class="trn">'+(i+1)+'</div><div class="tri-img"><img src="'+b.img+'" alt="'+b.judul+'" loading="lazy"/></div><div><div class="trt">'+b.judul+'</div><div class="trm">'+b.tanggal+'</div></div></a>';
-  }).join("");
-
+  document.getElementById("trending").innerHTML=getTerpopuler(5).map(function(b,i){return '<a href="artikel.html?id='+b.id+'" class="tri"><div class="trn">'+(i+1)+'</div><div class="tri-img"><img src="'+b.img+'" alt="'+b.judul+'" loading="lazy"/></div><div><div class="trt">'+b.judul+'</div><div class="trm">'+b.tanggal+'</div></div></a>';}).join("");
   function shareWA(){window.open("https://wa.me/?text="+encodeURIComponent(art?art.judul+" "+window.location.href:""),"_blank");}
   function copyLink(){navigator.clipboard.writeText(window.location.href).then(function(){alert("Link berhasil disalin!");});}
 </script>
