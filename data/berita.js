@@ -206,7 +206,7 @@ var BERITA = [
     isi: "<p>Platform pengembang software terbesar di dunia, GitHub, mengonfirmasi kebobolan data pada Selasa (20/5/2026). Sebanyak 3.800 repository internal milik perusahaan berhasil dicuri oleh kelompok peretas bernama TeamPCP — bukan dengan cara kasar seperti brute force password, melainkan lewat trik yang jauh lebih licik.</p><p>Serangan bermula dari sebuah extension VS Code bernama Nx Console yang sudah disisipi malware. Extension tersebut tampil normal seperti biasa, namun diam-diam menjalankan perintah tersembunyi saat diinstall yang langsung membuka akses ke ribuan repository rahasia perusahaan. Yang mengejutkan, versi berbahaya extension ini hanya aktif di marketplace selama 18 menit — namun cukup untuk menyebabkan kerusakan besar.</p><p>Setelah aksinya berhasil, kelompok TeamPCP
 ];
 
-var KATEGORI = ["Semua","Infrastruktur","Ekonomi","Bencana","Pertanian","Kesehatan","Olahraga","Pendidikan","Budaya","Sosial"];
+var KATEGORI = ["Semua","Infrastruktur","Ekonomi","Bencana","Pertanian","Kesehatan","Olahraga","Pendidikan","Budaya","Sosial","Teknologi"];
 
 function getArtikel(id){ return BERITA.find(function(b){ return b.id===parseInt(id); }); }
 function getTerpopuler(n){ return BERITA.slice().sort(function(a,b){ return b.views-a.views; }).slice(0,n||5); }
